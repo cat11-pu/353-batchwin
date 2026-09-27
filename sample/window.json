@@ -1,0 +1,16 @@
+{
+  "budget": 3,
+  "cap": 4,
+  "bad_item_code": "E_BAD_ITEM",
+  "dup_code": "E_DUP_ITEM",
+  "empty_code": "E_EMPTY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "window": [], "batches": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "add", "item": 1 },
+    { "id": 2, "kind": "add", "item": 2 },
+    { "id": 3, "kind": "add", "item": 3 },
+    { "id": 4, "kind": "add", "item": 4 },
+    { "id": 5, "kind": "add", "item": 5 }
+  ]
+}
