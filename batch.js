@@ -1,8 +1,8 @@
-// batch.js：满窗判定与封批（基线：一律不封批）
+// batch.js：满窗判定与封批
 export function ready(window, cap) {
-  return false;
+  return Array.isArray(window) && window.length >= cap;
 }
 
 export function packOf(window, batches) {
-  return batches;
+  return batches.concat([[batches.length + 1, window.slice()]]);
 }
